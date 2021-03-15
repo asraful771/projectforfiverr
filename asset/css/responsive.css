@@ -1,0 +1,75 @@
+@media screen and (max-width:1100px){
+   #header .logo{
+       z-index: 10;
+   }
+    .nav .hambager{
+        position:relative;
+        top:0;
+        right:0;
+        width:40px;
+        height:40px;
+        border:1px solid #fff;
+        border-radius:50%;           ;
+        -webkit-border-radius:50%           ;
+        -moz-border-radius:50%           ;
+        -ms-border-radius:50%           ;
+        -o-border-radius:50%           ;
+        z-index: 10;
+    }
+    .nav .hambager .bar{
+        width:20px;
+        height:2px;
+        background:#ffff;
+        position:absolute;
+        top:48%;
+        left:25%;
+        
+    }
+    .hambager .bar::after,
+    .hambager .bar::before{
+        content:"";
+        position:absolute;
+        width:20px;
+        height:2px;
+        background:#ffff; 
+    }
+    .hambager .bar::after{
+        top:8px;
+    }
+    .active .bar::after{
+        top:0;
+    }
+    .hambager .bar::before{
+        bottom:8px;
+    }
+    .active .bar::before{
+        bottom:0;
+    }
+
+    .nav .menu{
+        z-index: 1;
+        position:absolute;
+        left:110%;
+        top:0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        background:rgb(53, 52, 52);
+        width:100vw;
+        height:100vh;
+    }
+    .nav .active{
+        left:0;
+    }
+    .nav .menu a{
+        font-size:1.2rem;
+    }
+    .carousel-indicators{
+        z-index: 0;
+    }
+
+
+
+
+}

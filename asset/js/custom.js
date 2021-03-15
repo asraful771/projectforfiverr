@@ -1,4 +1,4 @@
-// magnific popup
+// magnific popup start
 $(document).ready(function() {
 	$('.popup-gallery').magnificPopup({
 		delegate: 'a',
@@ -18,3 +18,15 @@ $(document).ready(function() {
 		}
 	});
 });
+
+//   magnific popup end
+
+// menu start
+const hambager = document.querySelector('#header .nav .hambager');
+const mobile = document.querySelector('#header .nav .menu');
+hambager.addEventListener('click', () => {
+    hambager.classList.toggle('active');
+    mobile.classList.toggle('active');
+
+});
+// menu end

@@ -12,6 +12,25 @@ p,
 a{color:#333333;}
 /* comment css start end */
 
+/* header section start */
+#header{
+    background:#503492;
+    width: 100%;
+    
+}
+.menu li{
+    padding:8px;
+}
+.menu li a{
+    color:#d7d7d7;
+    text-transform:uppercase;
+}
+.menu li a:hover{
+    color:#fff;
+}
+/* header section end */
+
+
 
 /* carousel start */
 .carousel-font{
@@ -165,5 +184,13 @@ a{color:#333333;}
 /* footer section start */
 .footer{
     background: #1f1f1f;
+    
+}
+.social li a{
+    color:#fff;
+    padding:8px;
+}
+.social li a:hover{
+    color:#503392;
 }
 /* footer section end */
